@@ -1,6 +1,6 @@
 # &lt;countdown-timer&gt;
 
-> A web component to make countdowns easily
+> A web component that makes countdowns as easy as something incredibly easy
 
 # Install
 ```
@@ -18,7 +18,6 @@ $> bower install https://github.com/BraulioVM/countdown-timer
 
   <!-- Include countdown-timer -->
   <link rel="import" href="bower_components/countdown-timer/element.html">
-
   (...)
 </head>
 <body>
@@ -35,12 +34,12 @@ You can access the element as if it were any other html element.
 ```javascript
 var ct = document.querySelector("countdown-timer");
 ```
-### run
+#### run
 ```javascript
 ct.run(); // Sets the countdown running
 ```
 
-### stop
+#### stop
 ```javascript
 ct.stop();  // Stops the countdown
 ```
@@ -54,14 +53,14 @@ ct.addEventListener("count-ended", function(){
 });
 ```
 
-### count-stopped
+#### count-stopped
 ```javascript
 ct.addEventListener("count-stopped", function(){
   alert("Someone stopped the bomb, yay!");
 })
 ```
 
-### count-running
+#### count-running
 ```javascript
 ct.addEventListener("count-running", function(){
   alert("Oh no! The time is going down");
