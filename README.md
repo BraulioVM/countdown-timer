@@ -15,7 +15,6 @@ $> bower install https://github.com/BraulioVM/countdown-timer
   (...)
   <!-- Include the web components polyfill -->
   <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
-
   <!-- Include countdown-timer -->
   <link rel="import" href="bower_components/countdown-timer/element.html">
   (...)
