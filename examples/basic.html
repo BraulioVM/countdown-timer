@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="../bower_components/webcomponentsjs/webcomponents.min.js"></script>
+
+  <title> <countdown-timer> example </title>
+
+  <link rel="import" href="../element.html">
+
+  <script>
+    window.addEventListener("load", function(){
+      document.querySelector("countdown-timer").addEventListener("count-ended", function(){
+        alert("3 minutes and 10 seconds passed since you opened this page");
+      });
+    });
+  </script>
+
+</head>
+<body>
+  <countdown-timer minutes="2" seconds="70" running="true"></countdown-timer>
+</body>
+</html>

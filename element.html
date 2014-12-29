@@ -1,0 +1,23 @@
+<link rel="import" href="./bower_components/polymer/polymer.html">
+
+<polymer-element name="countdown-timer" attributes="hours minutes seconds running">
+  <template>
+    
+
+
+    <div class="container">
+      <span class="{{ { 'hours-active': hours > 0, 'hours-inactive' : hours == 0 } | tokenList }}">
+        {{ hours }} :
+      </span>
+      <span class="minutes">
+        {{ minutes | timePresentation }} :
+      </span>
+      <span class="seconds">
+        {{ seconds | timePresentation }}
+      </span>
+    </div>
+
+  </template>
+
+  <script src="./element.js"></script>
+</polymer-element>

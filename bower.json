@@ -1,0 +1,26 @@
+{
+  "name": "countdown-timer",
+  "version": "0.0.0",
+  "authors": [
+    "Braulio Valdivielso Martínez <brlvldvlsmrtnz@gmail.com>"
+  ],
+  "description": "A web component for making countdown timers",
+  "main": "countdown-timer.html",
+  "keywords": [
+    "countdown-timer",
+    "polymer",
+    "webcomponents",
+    "customelements",
+    "countdown",
+    "timer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.5.2"
+  }
+}
